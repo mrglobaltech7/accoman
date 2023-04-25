@@ -1,0 +1,241 @@
+@import url("fontawesome-all.css");
+
+/* wp-icon */
+.wp-icon{
+  position: fixed;
+  bottom: 5%;
+  left: 3%;
+  z-index: 9999;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 1px;
+}
+.wp-icon:hover img{
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+/* Header section */
+.main-header .logo-box .logo {
+    width: 12vw;
+}
+
+/* About Section */
+
+.about-section .work-list {
+    background: #fff7f7;
+    padding: 30px 30px 30px 30px;
+    border-left: 6px solid var(--secondary-color);
+    gap: 30px;
+}
+
+/* Counter Section */
+.counter-section {
+    position: relative;
+}
+
+.counter-section .image-layer-bottom{
+    background-position: center; 
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ---------- services section --------- */
+.services-img{
+  width: 5rem;
+  height: 5rem;
+  color: red;
+}
+/* All Title */
+.title-box h1{
+    color: var(--primary-color) !important;
+}
+
+/* --------------- Why choose us ---------- */
+.business-section-two{
+  background-image: url("../images/resource/circle-layer.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: -60%;
+}
+
+/* ------ testimonial ection-------- */
+.testimonial-section .testimonial-carousel-two .owl-dots{
+  display: none !important;
+}
+/* ---------- Course Section ------------ */
+.course-section{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='750' preserveAspectRatio='none' viewBox='0 0 1440 750'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1065%26quot%3b)' fill='none'%3e%3crect width='1440' height='750' x='0' y='0' fill='rgba(248%2c 248%2c 248%2c 1)'%3e%3c/rect%3e%3cpath d='M34 750L784 0L1123 0L373 750z' fill='url(%23SvgjsLinearGradient1066)'%3e%3c/path%3e%3cpath d='M556.2 750L1306.2 0L1795.2 0L1045.2 750z' fill='url(%23SvgjsLinearGradient1066)'%3e%3c/path%3e%3cpath d='M1394 750L644 0L368 0L1118 750z' fill='url(%23SvgjsLinearGradient1067)'%3e%3c/path%3e%3cpath d='M937.8 750L187.79999999999995 0L-307.20000000000005 0L442.79999999999995 750z' fill='url(%23SvgjsLinearGradient1067)'%3e%3c/path%3e%3cpath d='M1045.9472443853053 750L1440 355.94724438530534L1440 750z' fill='url(%23SvgjsLinearGradient1066)'%3e%3c/path%3e%3cpath d='M0 750L394.05275561469466 750L 0 355.94724438530534z' fill='url(%23SvgjsLinearGradient1067)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1065'%3e%3crect width='1440' height='750' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1066'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1067'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.course-section .news-block .image{
+    /* height: 30vh; */
+    background-color: transparent;
+}
+.course-section .news-block .image img{
+    max-height: 30vh;
+    min-height: 30vh;
+}
+/***
+====================================================================
+    Clients Section
+====================================================================
+
+***/
+.clients-section {
+  position: relative;
+  z-index: 1;
+  margin-top: 120px;
+}
+
+.clinet-logo{
+  max-height: 10.5rem;
+  filter: grayscale(1);
+}
+
+.clinet-logo:hover{
+  filter: grayscale(0);
+}
+
+.client-carousel-two .owl-dots{
+  display: none;
+}
+
+/* .placement-companies{
+  filter: grayscale(1);
+}
+
+.placement-companies:hover{
+  filter: grayscale(0);
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+
+}
+
+.clients-carousel {
+  position: relative;
+  padding: 0 0 85px 0;
+}
+
+.clients-carousel .slide-item {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.clients-carousel .slide-item a {
+  position: relative;
+  display: block;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.clients-carousel .slide-item a:hover {
+  background-color: #f2f8f8;
+}
+
+.clients-carousel .slide-item a:hover img {
+  opacity: 1;
+}
+
+.clients-carousel .slide-item img {
+  display: inline-block;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  opacity: 0.3;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.clients-carousel .owl-nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 25px;
+  background-color: #ffffff;
+  max-width: 110px;
+  right: 0;
+  margin: -13px auto 0;
+}
+
+.clients-carousel .owl-nav .owl-prev,
+.clients-carousel .owl-nav .owl-next {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 26px;
+  width: 26px;
+  background-color: var(--bg-theme-color3);
+  color: #7c858c;
+  font-size: 14px;
+  margin: 0 3px;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.clients-carousel .owl-nav .owl-prev:hover,
+.clients-carousel .owl-nav .owl-next:hover {
+  background-color: var(--bg-theme-color2);
+  color: #ffffff;
+}
+
+.clients-carousel .owl-dots {
+  display: none;
+} */
+
+@media screen and (min-width: 993px) and (max-width: 1440px){
+  .business-section-two{
+    background-image: url("../images/resource/circle-layer.png");
+    background-position: -250%;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1440px){
+  .business-section-two{
+    background-image: url("../images/resource/circle-layer.png");
+    background-position: -150%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 450px){
+  .main-slider .slide{
+    background-position: left !important;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 992px){
+  .main-header .logo-box .logo {
+    width: 22vw;
+}
+.about-section .image-column .image img {
+  text-align: center;
+  display: inline-block;
+}
+.business-section-two{
+  background-image: none !important;
+  /* background-repeat: no-repeat;
+  background-size: contain;
+  background-position: -60%; */
+}
+  /* .page-wrapper{
+   
+    padding-top: 54px;
+  } */
+}
